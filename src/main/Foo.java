@@ -1,3 +1,5 @@
+package main;
+
 public class Foo {
     private CircuitBreakerState state;
     private int failedRequests;
@@ -25,7 +27,7 @@ public class Foo {
                 state = CircuitBreakerState.PARTIALLY_OPEN;
                 failedRequests = 0;
             } else {
-                return "Service Unavailable";
+                return "main.Service Unavailable";
             }
         }
         try {
@@ -44,7 +46,7 @@ public class Foo {
                 state = CircuitBreakerState.OPEN;
                 lastOpenTime = System.currentTimeMillis();
             }
-            return "Service Unavailable";
+            return "main.Service Unavailable";
         }
     }
 

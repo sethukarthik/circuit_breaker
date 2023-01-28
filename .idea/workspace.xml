@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb72898a-0a55-471f-a6b2-8ee8fff1c837" name="Changes" comment="Added Foo, Service, Driver, CircuitBreakerState classes">
+    <list default="true" id="cb72898a-0a55-471f-a6b2-8ee8fff1c837" name="Changes" comment="Add Test classes for the Main classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ServiceContract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CircuitBreakerDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CircuitBreakerDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircuitBreakerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/CircuitBreakerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Foo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/FooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/FooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,8 +44,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -66,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674918325617</updated>
-      <workItem from="1674918327233" duration="3427000" />
+      <workItem from="1674918327233" duration="4723000" />
     </task>
     <task id="LOCAL-00001" summary="CircuitBreakerFirstCommit">
       <created>1674919098796</created>
@@ -82,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674932661492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Test classes for the Main classes">
+      <created>1674933295281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674933295281</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CircuitBreakerFirstCommit" />
     <MESSAGE value="Added Foo, Service, Driver, CircuitBreakerState classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Foo, Service, Driver, CircuitBreakerState classes" />
+    <MESSAGE value="Add Test classes for the Main classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Test classes for the Main classes" />
   </component>
 </project>

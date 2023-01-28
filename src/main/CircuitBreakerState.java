@@ -1,3 +1,5 @@
+package main;
+
 public class CircuitBreakerState {
     public static final CircuitBreakerState CLOSED = new CircuitBreakerState("CLOSED");
     public static final CircuitBreakerState OPEN = new CircuitBreakerState("OPEN");
